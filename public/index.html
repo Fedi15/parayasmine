@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fbf5f0">
+<meta name="description" content="Choose your Glow & Go beauty support plan.">
+<title>Glow & Go — Beauty Plans</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header"><a class="brand" href="#"><span class="brand-mark">g.</span><span>glow<span class="amp">&</span>go<small>BEAUTY, YOUR WAY</small></span></a><span class="header-note">Personal beauty guidance ✦</span></header>
+<main>
+<section class="intro"><span class="eyebrow">A LITTLE CARE, MADE PERSONAL</span><h1>Choose your <em>beauty plan.</em></h1><p>Three simple ways to get the beauty advice and support that fits you.</p></section>
+<section class="plans" aria-label="Beauty offers">
+<article class="plan"><span class="plan-number">01 / START SIMPLE</span><h2>Conseil beauté</h2><p class="description">Personalised advice to help you understand your products and how to use them.</p><ul><li>One personalised consultation</li><li>Up to 3 follow-up questions</li><li>Support over 7 days</li></ul><div class="price"><strong>00</strong><span>TND</span></div><button class="choose" data-plan="Conseil beauté">Choose this offer <span>↗</span></button></article>
+<article class="plan featured"><span class="popular">MOST COMPLETE</span><span class="plan-number">02 / BUILD YOUR ROUTINE</span><h2>Routine complète</h2><p class="description">A routine tailored to your needs, with practical product-use guidance.</p><ul><li>Personalised morning and evening routine</li><li>Guidance on using your products</li><li>Up to 7 questions over 14 days</li></ul><div class="price"><strong>00</strong><span>TND</span></div><button class="choose dark" data-plan="Routine complète">Choose this offer <span>↗</span></button></article>
+<article class="plan"><span class="plan-number">03 / ONGOING SUPPORT</span><h2>Accompagnement beauté</h2><p class="description">Keep getting support while using the beauty products you bought from us.</p><ul><li>30 days of support</li><li>Advice on products purchased from us</li><li>Up to 12 follow-up questions</li><li>One continuous conversation</li></ul><div class="price"><strong>00</strong><span>TND</span></div><button class="choose" data-plan="Accompagnement beauté">Choose this offer <span>↗</span></button></article>
+</section>
+<p class="footnote">Demo prices only. All prices currently show 00 TND for testing.</p>
+</main>
+<footer><span class="footer-brand">glow<span class="amp">&</span>go</span><span>Feel good in your skin. ♡</span></footer>
+<div class="backdrop" id="payment-modal" hidden><section class="payment-modal" role="dialog" aria-modal="true" aria-labelledby="payment-title"><button class="close" id="close-modal" aria-label="Close">×</button><span class="eyebrow">DEMO CHECKOUT</span><h2 id="payment-title">Complete your <em>selection.</em></h2><p class="selected-plan" id="selected-plan"></p><div class="payment-total"><span>Total for testing</span><strong>00 TND</strong></div><div class="qr-wrap"><img src="flouci-test-qr.svg" alt="Test-only random QR-style graphic; it does not initiate a payment"><span>FLOUCI · TEST MODE</span></div><p class="test-warning"><strong>Testing only</strong><br>This is a random demo QR-style graphic, not a genuine Flouci payment QR. Scanning it will not pay for anything.</p><button class="choose dark full" id="confirm-demo">Simulate payment success</button><p class="demo-status" id="demo-status" hidden>Demo complete — no money was charged and no real payment was made.</p></section></div>
+<script src="app.js"></script>
+</body></html>
